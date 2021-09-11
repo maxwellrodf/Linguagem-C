@@ -10,6 +10,8 @@ N3,
 ME,
 MA;
 
+char CONCEITO;
+
 main()
 {
     //************ENTRADA DAS NOTAS***********
@@ -30,18 +32,44 @@ printf("O Valor de MA e: %f\t", MA);
 
 if(MA>=9){
     printf("CONCEITO: A\n");
+    CONCEITO = 'A';
 }
 else if(MA>=7.5&&MA<9){
     printf("CONCEITO: B\n");
+    CONCEITO = 'B';
 }
 else if(MA>=6&&MA<7.5){
     printf("CONCEITO: C\n");
+    CONCEITO = 'C';
 }
 else if(MA>=4&&MA<6){
     printf("CONCEITO: D\n");
+    CONCEITO = 'D';
 }
 else if(MA<4){
     printf("CONCEITO: E\n");
+    CONCEITO = 'E';
 }
+switch (CONCEITO)
+{
+case 'A':
+printf("RESULTADO:\tA - APROVADO COM EXCELENCIA \n");
+break;
 
+case 'B':
+printf("RESULTADO:\tB - APROVADO \n");
+break;
+
+case 'C':
+printf("RESULTADO:\tC - EM RECUPERACAO PARCIAL \n");
+break;
+
+case 'D':
+printf("RESULTADO:\tD - EM RECUPERACAO CONTINUA \n");
+break;
+
+case 'E':
+printf("RESULTADO:\tE - REPROVADO \n");
+break;
+}
 }
