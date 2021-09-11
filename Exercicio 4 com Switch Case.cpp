@@ -1,4 +1,4 @@
-//EXERCICIO 4 DA LISTA 2
+//EXERCICIO 4 DA LISTA 2 COM SWITCH CASE
 //Elaborar um programa que leia 3 notas de um aluno e a média das notas dos exercícios realizados por ele. Calcular a média de aproveitamento, usando a fórmula: MA = [(N1 + N2*2 + N3*3 + ME)/7]. A partir da média, informar o conceito de acordo com a tabela
 
 #include <stdio.h>
