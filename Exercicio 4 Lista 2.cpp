@@ -18,12 +18,12 @@ scanf("%f", &N1); //LEIA A NOTA 1
 printf("digite a nota 2 \n");
 scanf("%f", &N2); //LEIA A NOTA 2
 printf("digite a nota 3 \n");
-scanf("%f", &N3); //LEIA A NOTA 3
+scanf("%f", &N2); //LEIA A NOTA 3
 printf("digite a MEDIA DOS EXERCICIOS \n");
 scanf("%f", &ME); //LEIA A MEDIA DOS EXERCICIOS
 
     //************CALCULO PARA A MEDIA DE APROVEITAMENTO DO ALUNO************
-MA = (N1+(N2*2)+(N3*3)+ME)/7;
+MA = ((N1+N2*2+N3*3+ME)/4);
 
     //************CONDICIONAIS PARA MOSTRAR O CONCEITO***********************
 printf("O Valor de MA e: %f\t", MA);
